@@ -1,0 +1,272 @@
+
+body {
+  font-family: 'Montserrat';
+}
+/* title section background image */
+#title {
+
+  background-image: linear-gradient(rgba(105, 0, 200, 0.3), rgb(150, 88, 88)), url("wallpaper.png");
+background-size: cover;
+background-position: center;
+  height: 100vh;
+}
+
+/* Meet a new and interesting friends nearby(h1 Heading) */
+.Heading {
+font-family: 'Alfa Slab One', cursive;
+  font-size: 3.5rem;
+  text-shadow: 0 0 5px black;
+  color:white;
+
+}
+
+.container-fluid {
+  padding-left: 5px;
+
+}
+
+/*css for lmatch*/
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 50px;
+font-family: 'Kavoon', cursive;
+   text-shadow: 0 0 5px #FF8080;
+   padding: 2% 12%;
+}
+
+
+.navbar-toggler{
+padding-right: 10px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-weight: 100;
+  font-size: 1.3rem;
+  color:#F7CCAC;
+}
+
+.navbar-nav{
+  padding: 10;
+  position: static;
+  right: 10px;
+color:white;
+}
+
+.homerow {
+  padding:0px 10px 10px 18px;
+  margin-bottom: 4%;
+}
+
+
+.btn1 {
+  margin-top: 20px;
+  margin-left: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.btn2 {
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color:#FF3D68;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* text color for the home section */
+.textHome {
+  padding-top: 10%;
+  color: #FAF5E4;
+  margin-left: 10%;
+margin-bottom: 10px;
+}
+
+
+
+/* css for features*/
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  background-color: white;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+  z-index: 3;
+}
+
+h3 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 800;
+      white-space: nowrap; /*white-space property specifies how white-space inside an element is handled*/
+}
+
+p {
+  color: grey;
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+.emoji {
+  padding-bottom: 3%;
+  color: #F43C3C;
+}
+
+.emoji:hover {
+  color: #030303;
+}
+
+
+/*testimonial*/
+#testimonials{
+  text-align: center;
+    color: #FAF5E4;
+  position:static;
+  background-image: linear-gradient(rgba(105, 0, 200, 0.3), rgb(140, 88, 88)), url("wallpaper3.png");
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+}
+
+.carousel-inner {
+  width: 50%;
+  margin-left: 24%;
+  padding-top: 3%;
+
+}
+/*image for testimonials*/
+.testi{
+  width: 50%;
+border-radius: 50%;
+margin:5%;
+}
+
+.testi-text{
+  margin:2%;
+  font-size: 20px;
+}
+
+
+/*press TESTIMONIIAL SERCTION*/
+#press {
+
+
+}
+
+.press-logo {
+
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+  margin-top: 60%;
+}
+/*pricing*/
+#pricing {
+  text-align: center;
+  padding: 3% 2%;
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+.card-pricing {
+  padding: 3% 2%;
+}
+
+/*call to action*/
+#cta{
+
+background-image: linear-gradient(rgba(105, 0, 200, 0.3), rgb(130, 88, 88)), url("wallpaper2.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 3.5rem;
+padding-bottom: 5%;
+padding-top: 5%;
+
+}
+
+.cta-head{
+      font-size: 2rem;
+      white-space:normal;
+      padding-top: 10px;
+      margin-bottom: 3%;
+      text-shadow: 0 0 3px black, 0 0 5px black;
+      color:#fff;
+}
+.btncta1{
+  margin-top: 20px;
+  margin-left: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btncta2{
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color:#FF3D68;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* footer section */
+#footer{
+  background-color:  #fff;
+  text-align: center;
+font-size: 1rem;
+}
+.footer-icon{
+  margin:2%;
+  height: 5px;
+  width: 5px;
+}
+
+/* media Query*/
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+    height: 120vh;
+
+  }
+
+  #testimonials{
+    text-align: center;
+    position:static;
+    height: 60vh;
+  }
+#cta{
+  position:static;
+  text-align: center;
+  height: 40vh;
+}
+
+}
