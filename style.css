@@ -254,19 +254,19 @@ font-size: 1rem;
 @media (max-width:1028px) {
   #title {
     text-align: center;
-    height: 120vh;
+    height: 100vh;
 
   }
 
   #testimonials{
     text-align: center;
     position:static;
-    height: 60vh;
+    height: 50vh;
   }
 #cta{
   position:static;
   text-align: center;
-  height: 40vh;
+  height: 30vh;
 }
 
 }
