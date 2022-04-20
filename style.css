@@ -146,7 +146,6 @@ p {
   background-position: center;
   height: 100%;
   padding-top: 10%
-    padding-bottom:10%;
 }
 
 .carousel-inner {
@@ -157,8 +156,8 @@ p {
 }
 /*image for testimonials*/
 .testi{
-  width: 50%;
-border-radius: 50%;
+  width: 30%;
+border-radius: 40%;
 margin:5%;
 }
 
@@ -181,6 +180,7 @@ margin:5%;
   margin: 2%;
   margin-top: 60%;
 }
+
 /*pricing*/
 #pricing {
   text-align: center;
