@@ -257,7 +257,35 @@ font-size: .9rem;
     height: 120%;
 
   }
+.btn1 {
+  margin-top: 2%;
+  margin-left: 1%;
+  border: none;
+  color: white;
+  padding: 1.5% 1.2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4% 1%;
+  cursor: pointer;
+}
 
+
+.btn2 {
+  margin-top: 2%;
+  margin-left: 1%;
+  background-color:#FF3D68;
+  border: none;
+  color: white;
+  padding: 1.5% 1.2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 2% 1%;
+  cursor: pointer;
+}
   #testimonials{
     text-align: center;
     position:static;
