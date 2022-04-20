@@ -1,12 +1,10 @@
 
-
-
 body {
   font-family: 'Montserrat';
 }
+
 /* title section background image */
 #title {
-
   background-image: linear-gradient(rgba(105, 0, 200, 0.3), rgb(150, 88, 88)), url("wallpaper.png");
 background-size: cover;
 background-position: center;
@@ -22,10 +20,8 @@ font-family: 'Alfa Slab One', cursive;
   color:white;
 
 }
-
 .container-fluid {
   padding-left: 1rem;
-
 }
 
 /*css for lmatch*/
@@ -58,7 +54,7 @@ color:white;
 }
 
 .homerow {
-  padding:0px 10px 10px 18px;
+ 
   margin-bottom: 4%;
 }
 
