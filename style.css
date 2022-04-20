@@ -1,5 +1,6 @@
 
 
+
 body {
   font-family: 'Montserrat';
 }
@@ -265,15 +266,12 @@ font-size: .9rem;
   #testimonials{
     text-align: center;
     position:static;
-    height: 60%;
-    white-space: nowrap;
+    height: 50%;
   }
 #cta{
   position:static;
   text-align: center;
-  height: 30%;
- padding-top:15%;
-  white-space: nowrap;
+  height: 40%;
 }
 
 }
