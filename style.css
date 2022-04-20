@@ -54,7 +54,6 @@ color:white;
 }
 
 .homerow {
- 
   margin-bottom: 4%;
 }
 
@@ -102,7 +101,7 @@ margin-bottom: 1%;
 
 #features {
   padding: 7% 15%;
-  position: relative;
+  position: static;
   background-color: white;
 }
 
@@ -137,7 +136,7 @@ p {
 #testimonials{
   text-align: center;
     color: #FAF5E4;
-  position:relative;
+  position:static;
   background-image: linear-gradient(rgba(105, 0, 200, 0.3), rgb(140, 88, 88)), url("wallpaper3.png");
   background-size: cover;
   background-position: center;
