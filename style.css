@@ -8,14 +8,14 @@ body {
   background-image: linear-gradient(rgba(105, 0, 200, 0.3), rgb(150, 88, 88)), url("wallpaper.png");
 background-size: cover;
 background-position: center;
-  height: 100vh;
+  height: 100%;
   z-index: 2;
 }
 
 /* Meet a new and interesting friends nearby(h1 Heading) */
 .Heading {
 font-family: 'Alfa Slab One', cursive;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   text-shadow: 0 0 5px black;
   color:white;
 
@@ -90,6 +90,7 @@ color:white;
   margin: 2% 1%;
   cursor: pointer;
 }
+
 /* text color for the home section */
 .textHome {
   padding-top: 10%;
@@ -181,12 +182,12 @@ margin:5%;
 /*pricing*/
 #pricing {
   text-align: center;
-  padding: 3% 2%;
+  padding: 5% 5%;
   font-family: 'Montserrat-Black', sans-serif;
 }
 
 .card-pricing {
-  padding: 3% 2%;
+  padding: 5% 5%;
 }
 
 /*call to action*/
@@ -270,7 +271,7 @@ font-size: .9rem;
   position:static;
   text-align: center;
   height: 30%;
-  padding-top:5%;
+ padding-top:15%;
 }
 
 }
