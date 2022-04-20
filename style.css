@@ -184,7 +184,7 @@ margin:5%;
 /*pricing*/
 #pricing {
   text-align: center;
-  padding: 5% 5%;
+  padding: 10% 5%;
   font-family: 'Montserrat-Black', sans-serif;
 }
 
@@ -245,6 +245,7 @@ font-weight: 900;
   margin: 1% 1%;
   cursor: pointer;
 }
+
 /* footer section */
 #footer{
   background-color:  #fff;
